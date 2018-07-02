@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Icons are themed by specifiy their activity component name and the drawable to replace it with -->
+
+    <!--&lt;!&ndash; Replace phone icon on Nexus/AOSP devices &ndash;&gt;-->
+    <!--<item component="ComponentInfo{com.android.contacts/.activities.DialtactsActivity}" drawable="ic_phone_red" />-->
+    <!--&lt;!&ndash; Phone on On HTC 4.0 devices &ndash;&gt;-->
+    <!--<item component="ComponentInfo{com.android.htccontacts/.DialerTabActivity}" drawable="ic_phone_red" />-->
+    <!--&lt;!&ndash; Phone on Sony devices &ndash;&gt;-->
+    <!--<item component="ComponentInfo{com.sonyericsson.android.socialphonebook/.DialerEntryActivity}" drawable="ic_phone_red" />-->
+
+    <!-- Alternatively,
+         Nova Launcher maintains an internal database of common system icons to theme.
+         For example the :PHONE line below does the same as all the lines above.
+         Note that only non-Play Store system apps are included in this, third-party apps,
+         or Play Store apps such as Chrome, or Google Calendar, will not be included and
+         must be themed manually.
+
+         The advantage to using Nova's database is that it likely covers more devices/roms
+         than you would otherwise, and future updates of Nova Launcher can support
+         future devices/roms as well.
+
+         The disadvantage is that other launchers do not support it and in some cases
+         you may be able to update your theme for a new device before Nova Launcher is.
+
+         If desired you can use both methods, allowing Nova to catch any you miss or your
+         ComponentInfo lines to catch any that Nova misses.
+    -->
+    <!--
+        <item component=":PHONE" drawable="ic_phone_red" />
+    -->
+
+    <!--&lt;!&ndash; Replace system's SMS icon &ndash;&gt;-->
+    <!--<item component=":SMS" drawable="ic_sms_red" />-->
+
+    <item component=":BROWSER" drawable="l_chrome" />
+
+    <!-- Give Chrome the browser icon, but in green -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="l_chrome" />
+    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="l_chrome" />
+
+    <!-- You may also replace the app drawer icon, which does not have a traditional component name -->
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="ic_allapps" />
+    <!-- If Nova Settings > Night Mode > Drawer icon is enabled, this will be used in night mode -->
+    <item component=":LAUNCHER_ACTION_APP_DRAWER_NIGHT" drawable="ic_allapps_night" />
+
+    <!-- As of Nova Launcher 3.0, there is special support for calendar icons. You may specify a prefix
+         for where Nova Launcher can find 31 drawables (ic_calendar_1, ic_calendar_2, etc). One for every
+         day of the month.
+         This is only for use with calendar apps. Please make your calendar icons prettyier than mine. -->
+    <calendar component="ComponentInfo{com.android.calendar/.AllInOneActivity}" prefix="l_calendar" />
+
+    <!-- For launchers that don't support the calendar tag, use this single icon as a fallback
+         Nova will ignore "item" tags if a given component has a "calendar" tag, but other launchers will use it -->
+    <item component="ComponentInfo{com.android.calendar/.AllInOneActivity}" drawable="l_calendar" />
+
+    <!-- You can also use Nova's :CALENDAR shortcut to theme the system calendar apps in Nova's internal database
+         Note that this does not include Google Calendar as that is available on Google Play -->
+    <calendar component=":CALENDAR" prefix="l_calendar" />
+
+    <!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.mobile.android.ui/com.spotify.mobile.android.ui.activity.MainActivity}" drawable="l_spotify_3" />
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="l_spotify_3" />
+
+    <!-- Email -->
+    <item component=":ËMAIL" drawable="l_mail" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="l_mail" />
+
+    <!--Instagram-->
+    <item component="ComponentInfo{com.instagram.android/com.instagram.android.activity.MainTabActivity}" drawable="l_instagram" />
+
+    <!--Youtube-->
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.Main}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube.googletv/com.google.android.youtube.googletv.MainActivity}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube.googletv/com.google.android.youtube.tv.fork.honeycomb.Shell$HomeActivity}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.froyo.phone.HomeActivity}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/com.ghareeb.YouTube.OGDownloadManager}" drawable="l_youtube" />
+    <item component="ComponentInfo{com.google.android.youtube/net.ogmods.youtube.OGDownloadManager1}" drawable="l_youtube" />
+
+    <!--Whatsapp-->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="l_whatsapp" />
+
+    <!--Camera-->
+    <item component=":CAMERA" drawable="l_camera" />
+
+    <!--Phone-->
+    <item component=":CALL" drawable="l_call" />
+    <item component=":PHONE" drawable="l_call" />
+    <item component=":SMS" drawable="l_call" />
+    <item component=":CONTACTS" drawable="l_call" />
+
+    <!--Netflix-->
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity}" drawable="l_netflix" />
+    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="l_netflix" />
+
+    <!--Google-->
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox/com.google.android.googlequicksearchbox.SearchActivity}" drawable="l_google" />
+
+    <!--Play Store-->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="l_playstore" />
+    <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.TvMainActivity}" drawable="l_playstore" />
+
+    <!--Play movies-->
+    <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.EntryPoint}" drawable="l_playmovies" />
+    <item component="ComponentInfo{com.google.android.videos/com.google.android.youtube.videos.honeycomb.VideosActivity}" drawable="l_playmovies" />
+    <item component="ComponentInfo{com.google.android.videos/com.google.android.videos.activity.LauncherActivity}" drawable="l_playmovies" />
+
+    <!--Play games-->
+    <item component="ComponentInfo{com.google.android.play.games/com.google.android.gms.games.ui.destination.main.MainActivity}" drawable="l_playgames" />
+
+    <!--Play music-->
+    <item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="l_playmusic" />
+
+    <!--Play books-->
+    <item component="ComponentInfo{com.google.android.apps.books/com.google.android.apps.books.app.BooksActivity}" drawable="l_playbooks" />
+
+    <!--Photos-->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="l_photos" />
+
+    <!--Snapchat-->
+    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="l_snapchat_2" />
+
+    <!--Skype-->
+    <item component="ComponentInfo{com.skype.raider/com.skype.raider.Main}" drawable="l_skype" />
+    <item component="ComponentInfo{com.microsoft.office.lync15/com.microsoft.office.lync.ui.splash.SplashActivity}" drawable="l_skype" />
+    <item component="ComponentInfo{com.microsoft.office.lync15/com.microsoft.office.lync.ui.splash.EntryPoint}" drawable="l_skype" />
+    <item component="ComponentInfo{com.microsoft.office.lync15/com.microsoft.office.sfb.common.ui.splash.EntryPoint}" drawable="l_skype" />
+
+    <!--Buienalarm-->
+    <item component="ComponentInfo{org.yoki.android.buienalarm/org.yoki.android.buienalarm.GooglePlayCheckActivity}" drawable="l_buienalarm" />
+    <item component="ComponentInfo{org.yoki.android.buienalarm/org.yoki.android.buienalarm.ui.activity.LaunchActivity}" drawable="l_buienalarm" />
+
+    <!--ING-->
+    <item component="ComponentInfo{com.ing.mobile/com.ing.mobile.app.activities.SplashActivity}" drawable="l_bankieren_2" />
+
+    <!--ING Betalen-->
+    <item component="ComponentInfo{com.ing.mobilepayments/com.ing.mobilepayments.sa}" drawable="l_betalen" />
+
+    <!--Contacten-->
+    <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="l_contacts" />
+    <item component=":CONTACTS" drawable="l_contacts" />
+
+    <!--Documenten-->
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="l_documenten" />
+
+    <!--Drive-->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="l_drive" />
+
+    <!--Enpass-->
+    <item component="ComponentInfo{io.enpass.app/in.sinew.enpass.MainActivity}" drawable="l_enpass" />
+
+
+
+</resources>

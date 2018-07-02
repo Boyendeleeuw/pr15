@@ -1,0 +1,57 @@
+[
+    {
+        "outputFile": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 90,
+                    "endOffset": 194
+                },
+                "from": {
+                    "file": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 171,
+                        "endColumn": 90,
+                        "endOffset": 257
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 199,
+                    "endColumn": 62,
+                    "endOffset": 257
+                },
+                "from": {
+                    "file": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 62,
+                        "endOffset": 166
+                    }
+                }
+            }
+        ]
+    }
+]

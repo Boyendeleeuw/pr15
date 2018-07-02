@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\build\\intermediates\\res\\merged\\debug\\xml\\theme_wallpapers.xml",
+        "source": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\xml\\theme_wallpapers.xml"
+    },
+    {
+        "merged": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\build\\intermediates\\res\\merged\\debug\\xml\\appfilter.xml",
+        "source": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\xml\\appfilter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\build\\intermediates\\res\\merged\\debug\\xml\\drawable.xml",
+        "source": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\xml\\drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\build\\intermediates\\res\\merged\\debug\\xml\\theme_patterns.xml",
+        "source": "C:\\Users\\Boyen\\Downloads\\Example_NovaTheme-master\\res\\xml\\theme_patterns.xml"
+    }
+]

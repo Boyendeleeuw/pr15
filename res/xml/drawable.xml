@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <category title="Lined Icons" />
+    <item drawable="l_call" />
+    <item drawable="l_calender" />
+    <item drawable="l_camera" />
+    <item drawable="l_chrome" />
+    <item drawable="l_chrome_2" />
+    <item drawable="l_google" />
+    <item drawable="l_instagram" />
+    <item drawable="l_instagram_2" />
+    <item drawable="l_mail" />
+    <item drawable="l_netflix" />
+    <item drawable="l_playstore" />
+    <item drawable="l_skype" />
+    <item drawable="l_snapchat" />
+    <item drawable="l_snapchat_2" />
+    <item drawable="l_spotify" />
+    <item drawable="l_spotify_2" />
+    <item drawable="l_spotify_3" />
+    <item drawable="l_whatsapp" />
+    <item drawable="l_youtube" />
+    <item drawable="l_youtube_2" />
+
+    <item drawable="l_photos" />
+    <item drawable="l_playbooks" />
+    <item drawable="l_playgames" />
+    <item drawable="l_playmovies" />
+    <item drawable="l_playmusic" />
+
+    <item drawable="l_bankieren" />
+    <item drawable="l_bankieren_2" />
+    <item drawable="l_betalen" />
+    <item drawable="l_contacts" />
+    <item drawable="l_documenten" />
+    <item drawable="l_drive" />
+    <item drawable="l_enpass" />
+    <item drawable="l_buienalarm" />
+
+
+
+    <category title="Filled Icons" />
+    <item drawable="f_call" />
+    <item drawable="f_camera" />
+    <item drawable="f_google" />
+    <item drawable="f_instagram" />
+    <item drawable="f_mail" />
+    <item drawable="f_netflix" />
+    <item drawable="f_spotify" />
+    <item drawable="f_whatsapp" />
+    <item drawable="f_youtube" />
+</resources>
